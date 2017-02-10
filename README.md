@@ -12,8 +12,9 @@ restored as a result of this process.
 
 ## But why would you do this?
 Google Assistant somewhat sucks, and lacks a lot of features that Google Now on
-Tap had. This features include OCR, and other screen capture features that made
-it useful.
+Tap had. These features include OCR, and other screen capture features that
+made searching screen content easier, as well as the ability to do things
+without yelling at your phone.
 
 ## Warnings
 This module does the exact opposite of what [Google Assistant Enabler](https://github.com/Magisk-Modules-Repo/Google_Assistant_Enabler) does. They are not compatible.
