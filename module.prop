@@ -1,8 +1,8 @@
-id=template
-name=Template Module
-version=v1
+id=gassist-disabler
+name=Google Assistant Disabler
+version=1.0
 versionCode=1
-author=topjohnwu
-description=A short description
-support=http://forum.xda-developers.com/showthread.php?t=3432382
-donate=http://topjohnwu.github.io/donate
+author=Keefer Rourke
+description=This module disables Google Assistant and restores Google Now on Tap on Pixel devices.
+support=mailto:support@krourke.org
+donate=http://paypal.me/keeferrourke/5

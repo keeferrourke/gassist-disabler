@@ -1,3 +1,15 @@
+# Google Assistant Disabler / Now on Tap restorer
+This Magisk Module disables Google Assistant on Nougat Google Pixel ROMs by
+making a modification to the build.prop. Google Now on Tap functionality is
+restored as a result of this process.
+
+## Instructions
+  1. Disable Google Assistant in Google Now settings.
+  2. Install the module in Magisk Manager.
+  3. Wipe data from the Google App.
+  4. Reboot to recovery and wipe cache and Dalvik/ART cache
+  5. Restart your device.
+
 ## How to Create a Magisk Module
 1. Clone / download this repo
 2. Open `config.sh`, follow the instructions written at the beginning of the file. You should at least change `config.sh` and `module.prop`
@@ -14,7 +26,6 @@
 6. Your repo should be cloned into [Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo), and you should receive an email to become the collaborator of that repo so you can edit it in the future.
 
 ## Notes
-1. (Windows aware!!) This git repo is configured to force Unix endlines on all necessary files. The line endings on these files should remain the Unix format. Please use advanced text editors like Sublime, Atom, Notepad++ etc. to edit the text files
 2. In `module.prop`, `version` is any string you like, so any fancy version name (e.g. ultra-beta-v0.0.0.1) is allowed. However, `versionCode` **MUST** be an integer. The value is used for version comparison.
 2. Make sure your module ID **doesn't contain any spaces**.
 3. (For repo developers) Magisk Manager monitors all repo's `master` branch. So any changes to the branch `master` will be reflected to all users immediately. If you are working on an update for a module, please work on another branch, make sure it works, and then merge the changes back to `master`.
