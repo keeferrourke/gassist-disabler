@@ -1,3 +1,4 @@
+# (Deprecated)
 # Google Assistant disabler / Now on Tap restorer
 This Magisk Module disables Google Assistant on Nougat Google Pixel ROMs by
 making a modification to the build.prop. 
